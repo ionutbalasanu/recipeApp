@@ -1,0 +1,98 @@
+.container{
+    background-color: #F46036;
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+.content{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    color:white;
+    size:40px;
+    font-style: italic;
+    font-weight: bold;
+}
+.recipesList{
+    background-color:#084C61;
+    width: 100%;
+    border-radius: 10px;
+    overflow: auto;
+    height: 130px;
+}
+
+li{
+    margin-left: 10px;
+    color:#F46036;
+    padding: 7px;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    list-style: none;
+}
+.recipesList li:hover{
+    background-color: #F46036;
+    color: white;
+}
+
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #616196;
+   
+    padding: 20px;
+    width: 96%;
+    border-radius: 10px;
+  }
+#delete-button {
+  font-size: x-large;
+  width: 100%;
+  background-color:#aa273d;
+  border-radius: 10px;
+  color: white;
+}
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.recipeView{
+  height: 400px;
+  background-color:#481D24;
+  width: 100%;
+  overflow: auto;
+  border-radius: 10px;
+
+}
+.recipeName{
+  width: 100%;
+  background-color: #084C61;
+  height: 50px;
+}
+#details{
+  color: white;
+}
